@@ -1,10 +1,10 @@
 # Tracce
-*Tutte le soluzioni sono contenute nel file `esercizi_funzioni.c`.*
+*Tutte le soluzioni sono contenute nel file [`esercizi_funzioni.c`](esercizi_funzioni.c).*
 
 Scrivere un programma in C che chiami una funzione Max che:
 	- Riceva in ingresso due numeri interi a e b
 	- Restituisca il valore massimo tra a e b
-Soluzione:
+<br>[Soluzione](esercizi_funzioni.c#L5-L7):
 ```c
 int max(int a, int b) {
     return a > b ? a : b;
@@ -12,7 +12,7 @@ int max(int a, int b) {
 ```
 	
 Scrivere un programma in C che chiami una funzione power che, ricevuti due parametri interi b ed e (e sicuramente positivo), calcoli la potenza b^e
-Soluzione:
+<br>[Soluzione](esercizi_funzioni.c#L9-L15):
 ```c
 int power(int base, unsigned int exponent) {
     int result = 1;
@@ -27,7 +27,7 @@ Scrivere un programma in C che legga da tastiera una sequenza di numeri interi p
 NB: Si implementi una funzione isPrime che, ricevuto un numero intero come parametro di ingresso, restituisca
 	- 1 se il numero è primo
 	- 0 se il numero non è primo
-Soluzione:
+<br>[Soluzione](esercizi_funzioni.c#L17-L37):
 ```c
 int isPrime(unsigned int number) {
     // Se il numero è minore o uguale a tre
@@ -72,7 +72,7 @@ Tale operazione deve essere svolta richiamando una funzione Somma che:
 	- riceva in ingresso i valori a e b (passaggio per valore)
 	- riceva in ingresso il puntatore ad una variabile s (passaggio per riferimento)
 	- calcoli la somma di a e b e salvi tale risultato nella variabile s
-Soluzione:
+<br>[Soluzione](esercizi_funzioni.c#L39-L41):
 ```c
 void sum(int a, int b, int *s) {
     *s = a + b;
@@ -96,7 +96,7 @@ Scrivere un programma in C che
 		• un valore di ritorno pari a 1 se il valore x è presente all’interno di vett, 0 in caso contrario
 		• il valore massimo presente all’interno del vettore
 		• il valore minimo presente all’interno del vettore 
-Soluzione:
+<br>[Soluzione](esercizi_funzioni.c#L43-L68):
 ```c
 int minMax(const int array[], int size, int x, int *min, int *max) {
     if (size == 0) {
