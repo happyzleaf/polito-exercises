@@ -120,9 +120,7 @@ Si realizzi un programma in linguaggio C in grado di gestire una rubrica di nomi
 _Nota: nella rubrica non possono esistere due voci con lo stesso nome._
 
 [Soluzione](esercizio_matrici_rubrica.c)
-
-_Ho voluto sperimentare coi puntatori di funzioni per la seconda e terza opzione._
-[Ricerca esatta e approssimata per nome](esercizio_matrici_rubrica.c#L62-L96)
+<br>[Ricerca esatta e approssimata per nome](esercizio_matrici_rubrica.c#L62-L96)
 ```c
 int compareExact(char *s1, char *s2) {
     if (s1 == NULL || s2 == NULL) {
@@ -160,3 +158,4 @@ int findNumber(char *query, int exactSearch) {
     return -1;
 }
 ```
+_Ho voluto sperimentare coi puntatori di funzioni per la seconda e terza opzione._
