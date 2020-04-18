@@ -4,7 +4,8 @@ In un concorso di intelligenza, N giudici esprimono il loro giudizio su K candid
  - `N` e `K` sono interi inseriti dall’utente tramite tastiera.
  - [`N` e `K` sono] rispettivamente minori di `10` e `100`.
  - Il giudizio è un valore numerico tra `0` e `5`.
-<br>Si scriva un programma in linguaggio C che:
+
+Si scriva un programma in linguaggio C che:
  - acquisisca da tastiera i giudizi espressi da ciascun giudice per ciascun candidato.
  - determini il candidato più intelligente (i.e. con somma dei giudizi massima).
  - il giudice più severo (i.e. con somma dei giudizi minima).
@@ -56,7 +57,8 @@ Si scriva un programma C che:
  - acquisisca da tastiera un testo libero, composto da più righe (massimo `1000`).
  - di un numero di caratteri non superiore a `100` ciascuna.
  - l'inserimento termina quando l’utente inserisce una riga uguale a `FINE`.
-<br>Al termine dell’acquisizione del testo, il programma dovrà stampare le seguenti statistiche:
+
+Al termine dell’acquisizione del testo, il programma dovrà stampare le seguenti statistiche:
  - il numero totale di righe inserite.
  - il numero totale di caratteri inseriti.
  - il numero totale di caratteri alfanumerici inseriti.
@@ -87,12 +89,14 @@ for (int x = 0; x < totalLines; x++) {
 Un’azienda deve tenere traccia dei beni presenti in un magazzino.
 <br>L’utente inserisce da tastiera i comandi in questo formato:
  - `<prodotto> [E, U] <quantità>`.
-<br>Dove:
+
+Dove:
  - `<prodotto>` è il nome di un prodotto privo di spazi e di massimo `29` caratteri.
  - massimo `100` prodotti diversi.
  - `<EU>` è la lettera `E` per entrata, `U` per uscita
  - `<quantità>` è la quantità di bene in entrata o in uscita.
-<br>L’utente termina il caricamento inserendo un comando pari a `FINE`.
+
+L’utente termina il caricamento inserendo un comando pari a `FINE`.
 <br>In tal caso il programma stampa le quantità di prodotti presenti a magazzino.
 <br>Esempio:
 ```
@@ -110,13 +114,15 @@ Si realizzi un programma in linguaggio C in grado di gestire una rubrica di nomi
  - la rubrica deve contenere fino a `100` voci diverse.
  - ciascuna [entry] composta da un nome e da un numero di telefono.
  - rispettivamente, massimo 40 e 20 caratteri.
-<br>Il programma deve fornire all’utente un menù di scelta, con le seguenti voci:  
+
+Il programma deve fornire all’utente un menù di scelta, con le seguenti voci:  
  - `1) Aggiungi una nuova voce in rubrica`.
  - `2) Ricerca esatta per nome`.
  - `3) Ricerca approssimata per nome`.
  - `4) Stampa completa della rubrica`.
  - `0) Esci dal programma`.
-<br>Una volta che l’utente ha scelto l’operazione desiderata `[1, 2, 3, 4, 0]`, il programma acquisirà i dati necessari dall’utente ed eseguirà il comando.
+
+Una volta che l’utente ha scelto l’operazione desiderata `[1, 2, 3, 4, 0]`, il programma acquisirà i dati necessari dall’utente ed eseguirà il comando.
 _Nota: nella rubrica non possono esistere due voci con lo stesso nome._
 
 [Soluzione](esercizio_matrici_rubrica.c)
