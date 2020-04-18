@@ -87,10 +87,7 @@ for (int x = 0; x < totalLines; x++) {
 
 ---
 Un’azienda deve tenere traccia dei beni presenti in un magazzino.
-<br>L’utente inserisce da tastiera i comandi in questo formato:
- - `<prodotto> [E, U] <quantità>`.
-
-Dove:
+<br>L’utente inserisce da tastiera i comandi nel formato `<prodotto> [E, U] <quantità>`, dove:
  - `<prodotto>` è il nome di un prodotto privo di spazi e di massimo `29` caratteri.
  - massimo `100` prodotti diversi.
  - `<EU>` è la lettera `E` per entrata, `U` per uscita
